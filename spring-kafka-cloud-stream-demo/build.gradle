@@ -1,0 +1,8 @@
+apply plugin: ServicePlugin
+
+dependencies {
+    implementation "org.apache.kafka:kafka-streams"
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "org.springframework.cloud:spring-cloud-stream"
+    implementation "org.springframework.cloud:spring-cloud-stream-binder-kafka"
+}

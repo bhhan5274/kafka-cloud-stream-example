@@ -1,0 +1,9 @@
+rootProject.name = 'kafka-toy-project'
+include 'kafka-spring-producer-with-rest-controller'
+include 'kafka-multi-consumer-thread-hdfs-save'
+include 'spring-kafka-cloud-stream-demo'
+include 'domain-crawler'
+include 'domain-processor'
+include 'domain-event'
+include 'domain-service'
+
